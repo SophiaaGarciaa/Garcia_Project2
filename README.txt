@@ -1,4 +1,4 @@
-# Project 2 Title
+#Project 2 Title
 Sophia Garcia | Student ID #
 Project Description
 
