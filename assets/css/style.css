@@ -1,0 +1,48 @@
+/* =================================
+    CSS VARIABLES
+   ================================= */
+:root {
+   /* Brand Color */
+   --main-color: #023047;
+   --main-color-light: #034060;
+   --main-color-dark: #012030;
+   /* Accent Colors */
+   --accent-color: #ffb703;
+   --accent-color-dark: #fb8500;
+   --text-color-dark: #219ebc;
+   --text-color-light: #8ecae6;
+
+   /* Typography */
+
+   /* Font Sizes */
+
+   /* Spacing */
+
+   /* Section Padding */
+
+   /* Border Radius */
+
+   /* Shadows */
+
+   /* Transitions */
+
+   /* Layout Max Widths */
+
+   /* Grid Gap Values */
+}
+
+/* ==============================================
+   RESET & BASE STYLES
+   ============================================== */
+   *,
+   *::after,
+   *::before {
+       padding: 0;
+       margin: 0;
+       box-sizing: border-box;
+   }
+
+   html {
+   font-size: 16px;
+   scroll-behavior: smooth;
+}
