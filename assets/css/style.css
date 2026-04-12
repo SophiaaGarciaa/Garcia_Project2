@@ -273,7 +273,7 @@ img {
       align-items: flex-end;
       overflow: hidden;
       background-color: var(--main-color-light);
-      background-image: url();
+      background-image: url(/assets/images/hero-bg-img.jpg);
    }
 
    .hero-content {}
