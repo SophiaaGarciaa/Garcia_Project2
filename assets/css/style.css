@@ -276,13 +276,32 @@ img {
       background-image: url(/assets/images/hero-bg-img.jpg);
    }
 
-   .hero-content {}
+   .hero-content {
+      position: relative;
+      z-index: 1;
+      padding: var(--hero-padding);
+      width: 100%;
+      max-width: var(--max-width-wide);
+   }
 
-   .hero-title {}
+   .hero-title {
+      font-size: var(--font-size-hero);
+      color: #fff;
+      margin-bottom: var(--space-md);
+   }
 
-   .hero-subtitle {}
+   .hero-subtitle {
+      font-size: var(--font-size-body);
+      color: var(--text-color-light);
+      margin-bottom: var(--space-xl);
+      line-height: 1.7;
+   }
 
-   .hero-buttons {}
+   .hero-buttons {
+      display: flex;
+      gap: var(--space-md);
+      flex-wrap: wrap;
+   }
 
 /* =================================
     MEDIA QUERIES
