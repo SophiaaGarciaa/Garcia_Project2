@@ -13,22 +13,56 @@
    --text-color-light: #8ecae6;
 
    /* Typography */
+   --font-headings:'DM Serif Display', Serif, Georgia;
+   --font-body:'Freeman', Arial, sans-serif;
 
-   /* Font Sizes */
+    /* Font Sizes */
+   --font-size-hero: clamp(2rem, 5vw + 1rem, 3.5rem);
+   --font-size-section-lg: clamp(1.75rem, 4vw + 0.5rem, 2.5rem);
+   --font-size-section: clamp(1.5rem, 3vw + 0.5rem, 2rem);
+   --font-size-card-title: clamp(1.1rem, 2vw + 0.5rem, 1.35rem);
+   --font-size-body: clamp(0.9rem, 1vw + 0.5rem, 1rem);
+   --font-size-small: clamp(0.85rem, 1vw + 0.5rem, 0.95rem);
+   --font-size-label: 0.7rem;
+   --font-size-meta: 0.5rem;
 
    /* Spacing */
+   --space-xs: 8px;
+   --space-sm: 12px;
+   --space-md: 16px;
+   --space-lg: 24px;
+   --space-xl: 40px;
+   --space-2xl: 80px;
 
    /* Section Padding */
+   --section-padding: 80px 20px;
+   --hero-padding: 160px 80px;
 
    /* Border Radius */
+   --radius-sm: 4px;
+   --radius-md: 12px;
+   --radius-lg: 16px;
+   --radius-pill: 30px;
 
    /* Shadows */
+   --shadow-card: 0 4px 20px rgba(0, 0, 0, 0.08);
+   --shadow-card-sm: 0 2px 12px rgba(0, 0, 0, 0.06);
+   --shadow-hover: 0 4px 16px rgba(0, 0, 0, 0.01);
 
    /* Transitions */
+   --transition-fast: 0.2s ease;
+   --transition-base: 0.3s ease;
+   --transition-slow: 0.4s ease;
 
    /* Layout Max Widths */
+   --max-width-narrow: 700px;
+   --max-width-content: 800px;
+   --max-width-wide: 1000px;
 
    /* Grid Gap Values */
+   --grid-gap-sm: 16px;
+   --grid-gap-md: 24px;
+   --grid-gap-lg: 32px;
 }
 
 /* ==============================================
@@ -96,7 +130,7 @@ img {
    width: 100%;
    background-color: var(--main-color);
    z-index: 100;
-   color: var(--color-white);
+   color: #fff;
 }
 
 .page-header .nav-logo {
@@ -109,12 +143,12 @@ img {
 }
 
 .nav-link-active {
-   color: var(--color-white);
+   color: #fff;
    font-family: var(--font-headings);
 }
 
 .nav-link {
-   color: var(--color-white);
+   color: #fff;
    font-family: var(--font-body);
 }
 
