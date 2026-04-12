@@ -226,6 +226,49 @@ img {
       margin-bottom: var(--space-xl);
    }
 
+   .footer-brand {
+      font-family: var(--font-headings);
+      font-size: 1.2rem;
+      display: flex;
+      align-items: center;
+      gap: var(--space-xs);
+      margin-bottom: var(--space-sm);
+   }
+
+   .footer-tagline {
+      font-size: var(--font-size-small);
+      color: var(--text-color-dark);
+      line-height: 1.7;
+   }
+
+   .footer-col-title {
+      font-family: var(--font-body);
+      font-size: var(--font-size-body);
+      font-weight: 400;
+      letter-spacing: 0.05rem;
+      text-transform: uppercase;
+      margin-bottom: var(--space-sm);
+   }
+
+   .footer-nav {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+   }
+
+   .footer-link {
+      font-size: var(--font-size-small);
+      transition: color var(--transition-fast);
+   }
+
+   .footer-link:hover {
+      color: var(--accent-color-dark);
+   }
+
+   .footer-social {
+      
+   }
+
 /* =================================
     HERO SECTION
    ================================= */
