@@ -268,12 +268,20 @@ img {
     HERO SECTION
    ================================= */
    .hero {
-      position: relative;
-      display: flex;
-      align-items: flex-end;
-      overflow: hidden;
-      background-color: var(--main-color-light);
-      background-image: url(/assets/images/hero-bg-img.jpg);
+   position: relative;
+   background-color: #0a0a0a;
+   overflow: hidden;
+   padding: 0 80px;
+   height: 500px;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   gap: var(--space-xl);
+   justify-content: space-between;
+   background-image: url(/assets/images/hero-bg-img.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
    }
 
    .hero-content {
@@ -301,6 +309,7 @@ img {
       display: flex;
       gap: var(--space-md);
       flex-wrap: wrap;
+      color: #fff;
    }
 
 /* =================================
