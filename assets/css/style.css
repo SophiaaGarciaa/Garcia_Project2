@@ -273,7 +273,7 @@ img {
       align-items: flex-end;
       overflow: hidden;
       background-color: var(--main-color-light);
-      background-image: url(https://unsplash.com/photos/pine-trees-field-near-mountain-under-sunset--heLWtuAN3c);
+      background-image: url();
    }
 
    .hero-content {}
