@@ -267,6 +267,22 @@ img {
 /* =================================
     HERO SECTION
    ================================= */
+   .hero {
+      position: relative;
+      display: flex;
+      align-items: flex-end;
+      overflow: hidden;
+      background-color: var(--main-color-light);
+      background-image: url(https://unsplash.com/photos/pine-trees-field-near-mountain-under-sunset--heLWtuAN3c);
+   }
+
+   .hero-content {}
+
+   .hero-title {}
+
+   .hero-subtitle {}
+
+   .hero-buttons {}
 
 /* =================================
     MEDIA QUERIES
