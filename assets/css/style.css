@@ -34,15 +34,130 @@
 /* ==============================================
    RESET & BASE STYLES
    ============================================== */
-   *,
-   *::after,
-   *::before {
-       padding: 0;
-       margin: 0;
-       box-sizing: border-box;
-   }
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
 
-   html {
+html {
    font-size: 16px;
    scroll-behavior: smooth;
+}
+
+body {
+   padding-top: 4rem;
+   font-family: var(--font-body);
+   font-size: var(--font-size-body);
+}
+
+h1 {
+   font-family: var(--font-headings);
+}
+
+h2,
+h3,
+h4,
+p {
+   font-family: var(--font-body);
+}
+
+a {
+   color: inherit;
+   text-decoration: none;
+}
+
+a:hover {
+   text-decoration: none;
+   cursor: pointer;
+}
+
+img {
+   max-width: 100%;
+   height: auto;
+   display: block;
+}
+
+/* =================================
+    HEADER SECTION
+   ================================= */
+.page-header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-wrap: wrap;
+   position: fixed;
+   gap: 10px;
+   padding: 20px 48px;
+   border-bottom: 1px solid var(--main-color-dark);
+   text-align: center;
+   top: 0;
+   left: 0;
+   width: 100%;
+   background-color: var(--main-color);
+   z-index: 100;
+   color: var(--color-white);
+}
+
+.page-header .nav-logo {
+   font-family: var(--font-headings);
+   font-size: 1.6rem;
+   letter-spacing: .15rem;
+   display: flex;
+   align-items: center;
+   gap: var(--space-md);
+}
+
+.nav-link-active {
+   color: var(--color-white);
+   font-family: var(--font-headings);
+}
+
+.nav-link {
+   color: var(--color-white);
+   font-family: var(--font-body);
+}
+
+.nav-link:hover {
+   color: var(--color-text-muted);
+}
+
+.main-nav {
+   display: flex;
+   align-items: center;
+   gap: var(--space-xl);
+}
+
+/* Ham Menu */
+.ham-checkbox {
+   display: none;
+}
+
+.ham-btn {
+   display: none;
+   flex-direction: column;
+   gap: 5px;
+   cursor: pointer;
+   padding: 4px;
+}
+
+.ham-btn span {
+   display: block;
+   width: 24px;
+   height: 2px;
+   background-color: var(--color-white);
+   transition: all var(--transition-base);
+   transform-origin: center;
+}
+
+.ham-checkbox:checked~.ham-btn span:nth-child(1) {
+   transform: translateY(7px) rotate(45deg);
+}
+
+.ham-checkbox:checked~.ham-btn span:nth-child(2) {
+   opacity: 0;
+}
+
+.ham-checkbox:checked~.ham-btn span:nth-child(3) {
+   transform: translateY(-7px) rotate(-45deg);
 }
