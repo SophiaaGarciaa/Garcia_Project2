@@ -505,7 +505,14 @@ figcaption {
       background-color: var(--main-color-dark);
       padding: var(--space-lg) var(--space-md);
    }
-   .cate-bar {}
+   .cate-bar {
+      width: 5px;
+      min-height: 60px;
+      background-color: var(--accent-color);
+      border-radius: var(--radius-sm);
+      flex-shrink: 0;
+      margin-top: 4px;
+   }
    .cate-title {
       color: var(--accent-color);
       font-family: var(--font-headings);
@@ -514,6 +521,7 @@ figcaption {
    }
    .cate-desc {
       color: #fff;
+      padding: var(--space-sm);
    }
    .featured-article {
       background-color: var(--main-color-light);
