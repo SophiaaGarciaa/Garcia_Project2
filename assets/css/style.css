@@ -373,7 +373,7 @@ img {
 
 .top-stories-title {
    padding: 0 var(--space-sm) 0 var(--space-md);
-   margin: 0 5rem 1rem 2rem;
+   margin: 0 5rem 2rem 5rem;
    color: var(--accent-color);
    font-size: var(--font-size-section-lg);
    max-width: var(--max-width-wide);
