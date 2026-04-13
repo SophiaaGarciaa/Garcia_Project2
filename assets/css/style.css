@@ -584,22 +584,57 @@ figcaption {
 
    .article-grid-section {
       background-color: var(--main-color-light);
-      padding: var(--section-padding);
+      padding: var(--space-xl) var(--space-lg) var(--space-2xl);
    }
 
-   .article-grid-title {}
+   .article-grid-title {
+      font-size: var(--font-size-section);
+      color: var(--accent-color);
+      font-family: var(--font-headings);
+      margin-bottom: var(--space-lg);
+   }
 
-   .article-grid-container {}
+   .article-grid-container {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: var(--space-lg);
+   }
 
-   .dest-card {}
+   .dest-card {
+      background-color: var(--main-color-dark);
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+   }
 
-   .dest-card-content {}
+   .dest-card img {
+      width: 100%;
+      object-fit: cover;
+      aspect-ratio: 16 / 10;
+   }
 
-   .dest-card-heading {}
+   .dest-card-content {
+      padding: var(--space-md);
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-xs);
+   }
 
-   .dest-card-meta {}
+   .dest-card-heading {
+      font-size: var(--font-size-card-title);
+      color: var(--accent-color);
+      font-family: var(--font-headings);
+      line-height: 1.3;
+   }
 
-   .dest-card-desc {}
+   .dest-card-meta {
+      font-size: var(--font-size-label);
+      color: var(--text-color-light);
+   }
+
+   .dest-card-desc {
+      font-size: var(--font-size-small);
+      color: var(--text-color-light);
+   }
 
 /* ================================
     ARTICLE SECTION
