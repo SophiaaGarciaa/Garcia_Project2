@@ -498,7 +498,7 @@ figcaption {
     CATEGORY SECTION
    ================================= */
    .cate-header {
-      background-color: var(--main-color);
+      background-color: var(--main-color-dark);
       padding: var(--space-lg) var(--space-md);
    }
    .cate-bar {}
@@ -566,7 +566,7 @@ figcaption {
 /* ================================
     ABOUT SECTION
    ================================= */
-   .about-section {
+   .about-header {
       background-color: var(--main-color-dark);
       padding: var(--space-lg) var(--space-md);
    }
