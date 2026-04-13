@@ -373,7 +373,7 @@ img {
 
 .top-stories-title {
    padding: 0 var(--space-sm) 0 var(--space-md);
-   margin: 0 auto var(--space-lg);
+   margin: 0 5rem 1rem 2rem;
    color: var(--accent-color);
    font-size: var(--font-size-section-lg);
    max-width: var(--max-width-wide);
@@ -389,10 +389,10 @@ img {
 .stories-container {
    display: flex;
    flex-direction: row;
-   gap: var(--space-lg);
+   gap: var(--space-2xl);
    max-width: var(--max-width-wide);
    padding: 0 var(--space-lg);
-   margin: 0 1rem;
+   margin: 0 10rem;
 }
 
 .story-cards {
