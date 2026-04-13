@@ -271,10 +271,12 @@ img {
 
    }
 
+   .copyright {}
+
 /* =================================
     HERO SECTION
    ================================= */
-   .hero {
+   .hero-section {
    position: relative;
    background-color: #0a0a0a;
    overflow: hidden;
@@ -302,14 +304,15 @@ img {
    .hero-title {
       font-family: var(--font-headings);
       font-size: var(--font-size-hero);
-      color: var(--main-color-dark);
+      color: #fff;
       margin-bottom: var(--space-md);
    }
 
    .hero-subtitle {
       font-family: var(--font-body);
       font-size: 1.2rem;
-      color: #fff;
+      color: var(--accent-color-dark);
+      font-weight: 400;
       margin-bottom: var(--space-xl);
       line-height: 1.7;
       letter-spacing: .05rem;
