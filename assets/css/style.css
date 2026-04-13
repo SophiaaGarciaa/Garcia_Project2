@@ -372,7 +372,7 @@ img {
 }
 
 .top-stories-title {
-   padding: 0 var(--space-lg) 0 var(--space-xl);
+   padding: 0 var(--space-sm) 0 var(--space-md);
    margin: 0 auto var(--space-lg);
    color: var(--accent-color);
    font-size: var(--font-size-section-lg);
@@ -391,8 +391,8 @@ img {
    flex-direction: row;
    gap: var(--space-lg);
    max-width: var(--max-width-wide);
-   margin: 0 auto;
    padding: 0 var(--space-lg);
+   margin: 0 1rem;
 }
 
 .story-cards {
