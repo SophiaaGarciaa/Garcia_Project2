@@ -249,7 +249,7 @@ img {
 .footer-col-title {
    font-family: var(--font-body);
    font-size: var(--font-size-body);
-   color: var(--accent-color-dark);
+   color: var(--accent-color);
    font-weight: 600;
    letter-spacing: 0.08rem;
    text-transform: uppercase;
@@ -338,7 +338,7 @@ img {
 .hero-subtitle {
    font-family: var(--font-body);
    font-size: 1.2rem;
-   color: var(--accent-color-dark);
+   color: var(--accent-color);
    font-weight: 400;
    margin-bottom: var(--space-xl);
    line-height: 1.7;
