@@ -489,6 +489,24 @@ figcaption {
    padding: var(--space-xs) 12px 12px;
 }
 
+/* ================================
+    CATEGORY SECTION
+   ================================= */
+   .cate-header {
+      background-color: var(--main-color);
+   }
+   .cate-bar {}
+   .cate-title {}
+   .cate-desc {}
+   .featured-article {}
+   .feat-article-title {}
+   .feat-article-card {}
+   .feat-article-content {}
+   .dest-tag {} 
+   .feat-article-heading {}
+   .feat-article-meta {}
+   .feat-article-desc {}
+   .feat-article-btn {}
 /* =================================
     MEDIA QUERIES
    ================================= *
