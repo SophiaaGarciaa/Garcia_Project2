@@ -670,6 +670,100 @@ figcaption {
       font-size: var(--font-size-section-lg);
       padding: var(--space-sm);
    }
+
+   .our-story {
+      padding: var(--space-xl) var(--space-lg);
+      background-color: var(--main-color-light);
+   }
+
+   .about-sect-title {
+      font-family: var(--font-headings);
+      font-size: var(--font-size-section);
+      color: var(--accent-color);
+      margin-bottom: var(--space-lg);
+   }
+
+   .about-story-text {
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-md);
+   }
+
+   .about-story-text p {
+      font-size: var(--font-size-body);
+      line-height: 1.7;
+      color: #fff;
+   }
+
+   .about-team {
+      padding: var(--space-xl) var(--space-lg);
+      background-color: var(--main-color-light);
+   }
+
+   .team-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: var(--space-lg);
+   }
+
+   .team-card {
+      background-color: var(--main-color-dark);
+      border-radius: var(--radius-lg);
+      padding: var(--space-lg);
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-xs);
+      align-items: center;
+      text-align: center;
+   }
+
+   .team-card img {
+      object-fit: cover;
+      margin-bottom: var(--space-sm);
+   }
+
+   .team-name {
+      font-family: var(--font-headings);
+      font-size: var(--font-size-card-title);
+      color: var(--accent-color);
+   }
+
+   .team-role {
+      font-size: var(--font-size-label);
+      color: var(--text-color-light);
+      font-style: italic;
+   }
+
+   .team-bio {
+      font-size: var(--font-size-small);
+      color: #fff;
+      line-height: 1.7;
+   }
+
+   .contact-section {
+      padding: var(--space-xl) var(--space-lg) var(--space-2xl);
+      background-color: var(--main-color-light);
+   }
+
+   .contact-form {
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-md);
+      max-width: var(--max-width-wide);
+   }
+
+   .contact-row {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: var(--space-md);
+   }
+
+   .contact-input {}
+
+   .contact-textarea {}
+
+   .contact-btn {}
+
 /* =================================
     MEDIA QUERIES
    ================================= *
