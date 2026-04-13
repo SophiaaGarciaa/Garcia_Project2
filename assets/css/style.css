@@ -387,12 +387,13 @@ img {
 }
 
 .stories-container {
-   display: flex;
-   flex-direction: row;
-   gap: var(--space-lg);
-   max-width: var(--max-width-wide);
+   display: grid;
+   flex-direction: column;
+   grid-template-columns: repeat(4, 1fr);
+   gap: var(--space-md);
+   max-width: 100%;
    margin: 0 auto;
-   padding: 0 var(--space-lg);
+   padding: var(--space-md) var(--space-md) 0;
 }
 
 .story-cards {
@@ -455,6 +456,11 @@ img {
    padding: var(--space-sm);
 }
 
+.gallery-desc {
+   color: #fff;
+   padding: var(--space-sm);
+}
+
 .gallery-container {
    display: grid;
    grid-template-columns: repeat(3, 1fr);
@@ -491,8 +497,6 @@ figcaption {
    font-style: italic;
    padding: var(--space-xs) 12px 12px;
 }
-
-.gallery-desc {}
 
 /* ================================
     CATEGORY SECTION
