@@ -382,6 +382,10 @@ img {
    position: relative;
 }
 
+.story-title-link:hover {
+   color: var(--accent-color-dark);
+}
+
 .stories-container {
    display: flex;
    flex-direction: row;
