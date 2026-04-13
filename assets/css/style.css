@@ -391,7 +391,7 @@ img {
    flex-direction: row;
    gap: var(--space-lg);
    max-width: var(--max-width-wide);
-   margin: 0 auto;
+   margin: 0 0 auto var(--space-lg);
    padding: 0 var(--space-lg);
 }
 
