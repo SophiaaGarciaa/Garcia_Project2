@@ -440,7 +440,7 @@ img {
     GALLERY SECTION
    ================================= */
    .gallery {
-      background-color: var(--main-color);
+      background-color: var(--main-color-light);
       padding: var(--section-padding);
    }
 
@@ -455,20 +455,22 @@ img {
 .gallery-container {
    display: grid;
    grid-template-columns: repeat(3, 1fr);
-   gap: 2rem;
+   grid-template-rows: repeat(2, auto);
+   gap: var(--space-lg);
 }
 
 .card {
-   background-color: var(--main-color-light);
-   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-   transition: transform 0.3s ease;
-   border-radius: 15px;
+   background-color: var(--main-color-dark);
+   border: 1px solid var(--accent-color);
+   border-radius: var(--radius-lg);
    padding: 15px;
+   overflow: hidden;
+   transition: transform var(--transition-base), border-color var(--transition-base);
 }
 
 .card:hover {
    transform: translateY(-5px);
-   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+   border-color: var(--accent-color-dark);
 }
 
 .card img {
@@ -479,11 +481,12 @@ img {
 }
 
 figcaption {
-   font-size: 0.9rem;
+   font-size: var(--font-size-label);
    font-weight: 400;
-   color: #787878;
+   color: #bababa;
    margin-top: 5px;
    font-style: italic;
+   padding: var(--space-xs) 12px 12px;
 }
 
 /* =================================
