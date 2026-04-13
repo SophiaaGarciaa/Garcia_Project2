@@ -337,6 +337,56 @@ img {
    }
 
 /* =================================
+    TOP STORIES SECTION
+   ================================= */
+   .top-stories {
+      padding: var(--section-padding);
+      background-color: var(--main-color-light);
+   }
+
+   .top-stories-title {
+      padding: 0 var(--space-lg);
+      margin: 0 auto var(--space-lg);
+      color: #fff;
+      font-size: var(--font-size-section-lg);
+      max-width: var(--max-width-wide);
+      font-family: var(--font-headings);
+      letter-spacing: 0.09rem;
+   }
+
+   .stories-container {
+      display: flex;
+      flex-direction: row;
+      gap: var(--space-lg);
+      max-width: var(--max-width-wide);
+      margin: 0 auto;
+      padding: 0 var(--space-lg);
+   }
+
+   .story-cards {
+      flex: 1;
+   }
+
+   .story-card img {
+      display: block;
+      width: 100%;
+      object-fit: cover;
+      aspect-ratio: 16 / 9;
+      border-radius: var(--radius-md);
+   }
+
+   .story-title {
+      font-family: var(--font-headings);
+      font-size: var(--font-size-card-title);
+      color: #fff;
+      margin-top: var(--space-sm)
+   }
+
+   .story-subtitle {}
+
+   .story-desc {}
+
+/* =================================
     MEDIA QUERIES
    ================================= *
       /* DESKTOP */
