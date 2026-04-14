@@ -772,6 +772,10 @@ figcaption {
    flex: 1;
 }
 
+.sidebar-card img {
+   border-radius: var(--radius-md);
+}
+
 .sidebar-card-title {
    font-family: var(--font-headings);
    font-size: var(--font-size-small);
@@ -788,8 +792,6 @@ figcaption {
    font-size: var(--font-size-small);
    color: #fff;
 }
-
-
 
 /* ================================
     ABOUT SECTION
