@@ -708,7 +708,7 @@ figcaption {
    display: flex;
    flex-direction: column;
    gap: var(--space-md);
-    margin: 0 var(--space-xl);
+   margin: 0 var(--space-xl);
 }
 
 .article-title {
@@ -942,6 +942,7 @@ figcaption {
    ================================= *
 /* TABLET */
 @media (max-width: 768px) {
+
    /* Show hamburger, hide desktop nav */
    .ham-btn {
       display: flex;
@@ -955,7 +956,7 @@ figcaption {
       gap: 0;
       order: 4;
       padding-top: var(--space-md);
-      
+
    }
 
    .nav-dropdown {
@@ -1009,7 +1010,7 @@ figcaption {
    .team-container {
       grid-template-columns: repeat(2, 1fr);
    }
-   
+
    .article-wrapper {
       grid-template-columns: 1fr;
    }
