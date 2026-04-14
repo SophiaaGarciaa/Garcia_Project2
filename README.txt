@@ -39,4 +39,4 @@ Special Features & Techniques
     -Hamburger menu created using the CSS checkbox trick
 
 Challenges
-    -I struggled most with margin and padding for sections, cards, and grid.
+    I struggled most with margin and padding for sections, cards, and grid. The article page sidebar cards were creating a spacing issue as they weren't evenly distribute along the bar and instead group together at the top. Similarly in the 'Top Stories' section, the cards were overflowing outside the page, creating a white space on the right side. I had to do much trial and error to figure out the spacing, padding, and margin issues throught the site.
