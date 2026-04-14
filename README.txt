@@ -14,6 +14,9 @@ Pages Featured
     * Gallery Page | gallery.html
         The gallery page features a photo gallery created by a 3 by 2 grid including figure captions. The images were sourced from Unsplash.
 
+Planning Process
+    The design process began with research current travel site and deciding on a color palette. I then create hand-drawn sketches for each of the 5 pages, making sure to map out major layouts. After sketching, I decide on fonts and a comprehensive style guide. Next, I wrote out the html for each page. Once creating the html for the navigation and footer on the index page, I copy and pasted it into the remaining pages. After the html was written for each page, I would write out all the class tags in the css style guide. Lastly, I worked on the CSS for each page going section by section, including the meadia queries.
+
 Fonts
     h1 - DM Serif Display | Google Fonts
     h2, h3, p - Freeman | Google Fonts
