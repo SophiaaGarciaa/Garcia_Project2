@@ -430,7 +430,6 @@ img {
    border: 1px solid rgba(33, 158, 188, 0.3);
    border-radius: var(--radius-lg);
    overflow: hidden;
-   min-width: 15rem;
 }
 
 .story-cards img {
