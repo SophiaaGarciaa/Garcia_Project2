@@ -769,7 +769,6 @@ figcaption {
    display: flex;
    flex-direction: column;
    gap: var(--space-sm);
-   flex: 1;
 }
 
 .sidebar-card img {
