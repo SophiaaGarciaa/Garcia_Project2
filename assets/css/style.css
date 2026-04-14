@@ -702,13 +702,13 @@ figcaption {
    gap: var(--space-xl);
    padding: var(--space-xl) var(--space-lg);
    background-color: var(--main-color-light);
-   align-items: start;
 }
 
 .article-content {
    display: flex;
    flex-direction: column;
    gap: var(--space-md);
+    margin: 0 var(--space-xl);
 }
 
 .article-title {
@@ -752,7 +752,7 @@ figcaption {
 .article-sidebar {
    display: flex;
    flex-direction: column;
-   gap: var(--space-md);
+   gap: var(--space-xl);
 }
 
 .sidebar-title {
@@ -765,10 +765,11 @@ figcaption {
 .sidebar-card {
    background-color: var(--main-color);
    border-radius: var(--space-md);
-   padding: var(--space-md);
+   padding: var(--space-lg);
    display: flex;
    flex-direction: column;
-   gap: var(--space-xs);
+   gap: var(--space-sm);
+   flex: 1;
 }
 
 .sidebar-card-title {
