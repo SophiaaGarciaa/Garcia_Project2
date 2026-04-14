@@ -1,6 +1,6 @@
 Project 2: The Tour
 Sophia Garcia | Student ID R#11968034
-'The Tour' is a fictional travel magazine that highlights travel destinations, articles, and a gallery of beautiful landscapes. The site features navy and gold editiorial visual deisgn with all 5 pages sharing a consistent navigation, color palette, typography, and information architecture. The site was inspired by a more modern and vibrant color palette to differentiate from other travel journalism websites.
+'The Tour' is a fictional travel magazine that highlights travel destinations, articles, and a gallery of beautiful landscapes. The site features navy and gold editiorial visual deisgn with all 5 pages sharing a consistent navigation, color palette, typography, and information architecture. The site was inspired by a more modern and vibrant color palette to differentiate from other travel journalism websites. The Tour was inspired by hidden destination gems, affordable travel, and story-telling journalism. Target users were based on a usability test result activity in which the needs and wants of frequent travelers were noted.
 
 Pages Featured
     * Homepage | index.html
