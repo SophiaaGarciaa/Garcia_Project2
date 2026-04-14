@@ -30,7 +30,7 @@ Color Palette
    text-color-light: #8ecae6;
 
 Image Sources
-
+> Unsplash
 Special Features & Techniques
 
 Challenges
