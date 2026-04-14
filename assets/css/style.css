@@ -540,6 +540,15 @@ figcaption {
    display: flex;
    background-color: var(--main-color-dark);
    border-radius: var(--radius-lg);
+   overflow: hidden;
+   max-width: var(--max-width-wide);
+   margin: 0 auto;
+}
+
+.feat-article-card img{
+   width: 20rem;
+   height: 20rem;
+   object-fit: cover;
 }
 
 .feat-article-content {
